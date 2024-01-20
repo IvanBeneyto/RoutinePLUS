@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
-val Blue = Color(0xFF09B3E4)
-val Blue2 = Color(0xFF09B3E4)
+val Blue = Color(0xffffffff)
+val Blue2 = Color(0xffffffff)
 
 @Composable
 fun GradientBox(
