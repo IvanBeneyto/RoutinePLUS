@@ -55,7 +55,7 @@ fun MyTextField(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Box(
-                    modifier = Modifier.weight(1f),
+                    modifier = Modifier.weight(1f).padding(horizontal = 10.dp),
                     contentAlignment = Alignment.CenterStart
                 ) {
                     it.invoke()
